@@ -51,6 +51,7 @@ body {
     grid-auto-columns: calc((100% / 3) - 12px);
     gap: 16px;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .carousel :where(.card, .img) {
