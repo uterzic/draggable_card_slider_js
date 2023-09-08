@@ -35,7 +35,7 @@ const dragStop = () => {
 }
 
 const autoPlay = () => {
-    if(window.innerWidth < 800) return;
+    if(window.innerWidth < 786) return;
     timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2000);
 }
 autoPlay();
